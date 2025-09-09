@@ -4,64 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>exam</title>
-    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="navbar navbar-expand-lg">
+    <header class="navbar navbar-expand-lg bg-white">
       <div class="container">
-        <div class="row">
-          <div class="col-md-flex">
-            <div class="header-content d-flex">
-              <img
-                src="./images/logo3.png"
-                class="rounded-circle border border-2 bg-warning"
-                style="width: 4%"
-                alt=""
-              />
-              <span class="fs-4 fw-bold">Bites</span>
-              <div
-                class="collapse navbar-collapse justify-content-end col-md-flex"
+        <a
+          href="javascript:void(0)"
+          class="fs-3 text-uppercase text-decoration-none text-black px-3 py-1 rounded-circle"
+        >
+          <i class="fa-solid fa-utensils"></i>
+        </a>
+        <a
+          href="javascript:void(0)"
+          class="fs-4 fw-medium text-black text-decoration-none ps-3"
+          >Bites</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-2 px-2">
+              <a
+                href="javascript:void(0)"
+                class="nav-link active text-black fw-medium"
+                >About Us</a
               >
-                <ul class="navbar-nav fw-medium px-2">
-                  <li class="nav-item">
-                    <a href="javascript:void(0)" class="nav-link">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="javascript:void(0)" class="nav-link">Menu</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="javascript:void(0)" class="nav-link">Reviews</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="javascript:void(0)" class="nav-link">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="javascript:void(0)" class="nav-link">Contacts</a>
-                  </li>
-                  <li class="nav-item p-2">
-                    <a
-                      href="javascript:void(0)"
-                      class="text-black border border-1 border-warning rounded-pill p-2"
-                      ><i class="bi bi-measuring-cup"></i
-                    ></a>
-                  </li>
-                  <li class="nav-item">
-                    <a
-                      href="javascript:void(0)"
-                      class="btn btn-warning rounded-pill"
-                      >Reserve Table</a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a
+                href="javascript:void(0)"
+                class="nav-link active text-black fw-medium"
+                >Menu</a
+              >
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a
+                href="javascript:void(0)"
+                class="nav-link active text-black fw-medium"
+                >Reviews</a
+              >
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a
+                href="javascript:void(0)"
+                class="nav-link active text-black fw-medium"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a
+                href="javascript:void(0)"
+                class="nav-link active text-black fw-medium"
+                >Contacts</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                href="javascript:void(0)"
+                class="nav-link active text-black fw-medium px-3 py-2"
+              >
+                <i class="fa-regular fa-calendar"></i>
+              </a>
+            </li>
+            <li class="nav-item mx-2 my-2 my-lg-0 px-2">
+              <a
+                href="javascript:void(0)"
+                class="nav-link active text-black fw-medium bg-warning rounded-pill px-2"
+              >
+                Reserve Table
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <section class="menu py-5">
@@ -72,50 +99,50 @@
               <h1>Our Regular Menu Pack</h1>
             </div>
             <div class="menu-content px-5">
-              <ul class="list-unstyled d-flex">
-                <li class="px-3">
+              <ul class="list-unstyled d-md-flex justify-content-center">
+                <li class="px-3 my-2">
                   <a
                     href="javascript:void(0)"
                     class="text-reset rounded-pill btn btn-outline-warning"
                     >special foods</a
                   >
                 </li>
-                <li class="px-3">
+                <li class="px-3 my-2">
                   <a
                     href="javascript:void(0)"
                     class="text-reset rounded-pill btn btn-outline-warning"
                     >Mexican</a
                   >
                 </li>
-                <li class="px-3">
+                <li class="px-3 my-2">
                   <a
                     href="javascript:void(0)"
                     class="text-reset rounded-pill btn btn-outline-warning"
                     >Italian</a
                   >
                 </li>
-                <li class="px-3">
+                <li class="px-3 my-2">
                   <a
                     href="javascript:void(0)"
                     class="text-reset rounded-pill btn btn-outline-warning"
                     >Japense</a
                   >
                 </li>
-                <li class="px-3">
+                <li class="px-3 my-2">
                   <a
                     href="javascript:void(0)"
                     class="text-reset rounded-pill btn btn-outline-warning"
                     >Drinks</a
                   >
                 </li>
-                <li class="px-3">
+                <li class="px-3 my-2">
                   <a
                     href="javascript:void(0)"
                     class="text-reset rounded-pill btn btn-outline-warning"
                     >Lunch</a
                   >
                 </li>
-                <li class="px-3">
+                <li class="px-3 my-2">
                   <a
                     href="javascript:void(0)"
                     class="text-reset rounded-pill btn btn-outline-warning"
@@ -126,163 +153,247 @@
             </div>
           </div>
         </div>
-        <div class="row py-5">
-          <div class="col-md-3 pb-5">
-            <div class="card text-center">
-              <img src="./images/img-1.png" alt="" />
-              <div class="card-body">
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/img-1.png" alt="" class="w-100" />
+              <div class="text-center">
                 <h4>Pasta</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center">
-              <img src="./images/images.webp" alt="" />
-              <div class="card-body">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/images.webp" alt="" class="w-100" />
+              <div class="text-center">
                 <h4>French fries</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center">
-              <img src="./images/cimg4.png" alt="" />
-              <div class="card-body">
-                <h4>Chicken Shawarma</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/cimg4.png" alt="" class="w-100" />
+              <div class="text-center">
+                <h4>Chicken shawrma</h4>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center">
-              <img src="./images/img5.png" alt="" />
-              <div class="card-body">
-                <h4>Fish Curry</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/img6.jpg" alt="" class="w-100" />
+              <div class="text-center">
+                <h4>Fish curry</h4>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center">
-              <img src="./images/img-1.png" alt="" />
-              <div class="card-body">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/img-1.png" alt="" class="w-100" />
+              <div class="text-center">
                 <h4>Pasta</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center">
-              <img src="./images/images.webp" alt="" />
-              <div class="card-body">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/images.webp" alt="" class="w-100" />
+              <div class="text-center">
                 <h4>French fries</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center">
-              <img src="./images/cimg4.png" alt="" />
-              <div class="card-body">
-                <h4>Chicken Shawarma</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/cimg4.png" alt="" class="w-100" />
+              <div class="text-center">
+                <h4>Chicken Shawrma</h4>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center">
-              <img src="./images/img5.png" alt="" />
-              <div class="card-body">
-                <h4>Fish Curry</h4>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card p-4 rounded-4 my-3">
+              <img src="./images/img6.jpg" alt="" class="w-100" />
+              <div class="text-center">
+                <h4>Fish curry</h4>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Vero, optio.
+                  Pasta is type of food typically made <br />
+                  for man unleavened dough.
                 </p>
-                <p>$35.00</p>
-                <button class="btn btn-outline-warning">Add to Cart</button>
+                <ul
+                  class="list-unstyled d-flex justify-content-between align-items-center"
+                >
+                  <li class="fs-5 fw-bold">$35.00</li>
+                  <li class="">
+                    <a
+                      href="javascript:void(0)"
+                      class="btn btn-outline-warning rounded-pill text-decoration-none text-black"
+                      >Add to cart</a
+                    >
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <footer>
+    <footer class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -291,43 +402,42 @@
                 Subscribe Our <br />
                 Newletter
               </h2>
-              <div class="input-group mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter a Email"
-                  aria-describedby="basic-addon2"
-                />
-                <span class="input-group-text" id="basic-addon2"
-                  ><i class="bi bi-box-arrow-in-right"></i
-                ></span>
+              <div class="d-flex">
+                <div class="input-group mb-3 w-50">
+                  <input
+                    type="email"
+                    class="form-control border-0 border-bottom"
+                    placeholder="Email"
+                  />
+                </div>
+                <i class="fa-solid fa-arrow-right px-auto"></i>
               </div>
               <ul class="d-flex list-unstyled px-3">
-                <li class="px-1">
+                <li class="px-2">
                   <a
                     href="javascript:void(0)"
-                    class="fs-4 text-black btn btn-outline-warning rounded-pill"
+                    class="fs-5 text-black btn btn-outline-warning rounded-pill"
                     ><i class="bi bi-facebook"></i
                   ></a>
                 </li>
                 <li class="px-2">
                   <a
                     href="javascript:void(0)"
-                    class="fs-4 text-black btn btn-outline-warning rounded-pill"
+                    class="fs-5 text-black btn btn-outline-warning rounded-pill"
                     ><i class="bi bi-twitter"></i
                   ></a>
                 </li>
                 <li class="px-2">
                   <a
                     href="javascript:void(0)"
-                    class="fs-4 text-black btn btn-outline-warning rounded-pill"
+                    class="fs-5 text-black btn btn-outline-warning rounded-pill"
                     ><i class="bi bi-instagram"></i
                   ></a>
                 </li>
                 <li class="px-2">
                   <a
                     href="javascript:void(0)"
-                    class="fs-4 text-black btn btn-outline-warning rounded-pill"
+                    class="fs-5 text-black btn btn-outline-warning rounded-pill"
                     ><i class="bi bi-youtube"></i
                   ></a>
                 </li>
@@ -335,28 +445,97 @@
             </div>
           </div>
           <div class="col-md-8">
-            <h5>Service</h5>
-            <ul class="list-unstyled">
-              <li class="pb-2">
-                <a href="javascript:void(0)" class="text-reset">Online Order</a>
-              </li>
-              <li class="pb-2">
-                <a href="javascript:void(0)" class="text-reset"
-                  >Pre reservation</a
-                >
-              </li>
-              <li class="pb-2">
-                <a href="javascript:void(0)" class="text-reset"
-                  >24/7 Services</a
-                >
-              </li>
-              <li class="pb-2">
-                <a href="javascript:void(0)" class="text-reset">Foodie Place</a>
-              </li>
-              <li class="pb-2">
-                <a href="javascript:void(0)" class="text-reset">super Chefs</a>
-              </li>
-            </ul>
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-3">
+                <h5>Service</h5>
+                <ul class="list-unstyled">
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >Online Order</a
+                    >
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >Pre reservation</a
+                    >
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >24/7 Services</a
+                    >
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >Foodie Place</a
+                    >
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >super Chefs</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">Menu</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">Reviews</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">Blogs</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >Reserve Tables</a
+                    >
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >Order Foods</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <h5>About</h5>
+                <ul class="list-unstyled">
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >Our story</a
+                    >
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">Benfits</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">Career</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset"
+                      >Our chefs</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <h5>Help</h5>
+                <ul class="list-unstyled">
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">Contact</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">Support</a>
+                  </li>
+                  <li class="pb-2">
+                    <a href="javascript:void(0)" class="text-reset">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
